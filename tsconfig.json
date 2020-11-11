@@ -17,6 +17,7 @@
     "declarationMap": true,
     "inlineSourceMap": true,
     "inlineSources": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "module": "commonjs"
   }
 }
