@@ -1,10 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es2020",
-    "lib": ["ES2020", "DOM"],
+    "allowJs": true,
+    "esModuleInterop": true,
+    "module": "esnext",
     "moduleResolution": "node",
-    // this enables stricter inference for data properties on `this`
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
     "strict": true,
+    "target": "es6",
+    "lib": ["ES2020", "DOM"],
     "skipLibCheck": true,
     "typeRoots": ["types", "node_modules/@types"],
     "paths": {
@@ -16,7 +21,6 @@
     "declaration": true,
     "declarationMap": true,
     "inlineSourceMap": true,
-    "inlineSources": true,
-    "resolveJsonModule": true
+    "inlineSources": true
   }
 }
