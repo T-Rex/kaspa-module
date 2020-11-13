@@ -3,7 +3,6 @@
     "target": "es6",
     "lib": ["ES2020", "DOM"],
     "moduleResolution": "node",
-    "module": "CommonJS",
     // this enables stricter inference for data properties on `this`
     "strict": true,
     "skipLibCheck": true,
