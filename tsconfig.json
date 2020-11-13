@@ -1,15 +1,11 @@
 {
   "compilerOptions": {
-    "allowJs": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "noEmit": true,
-    "resolveJsonModule": true,
-    "sourceMap": true,
-    "strict": true,
     "target": "es6",
     "lib": ["ES2020", "DOM"],
+    "moduleResolution": "node",
+    "module": "commonjs",
+    // this enables stricter inference for data properties on `this`
+    "strict": true,
     "skipLibCheck": true,
     "typeRoots": ["types", "node_modules/@types"],
     "paths": {
@@ -20,6 +16,8 @@
     "rootDir": ".",
     "declaration": true,
     "declarationMap": true,
-    "inlineSources": true
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "resolveJsonModule": true
   }
 }
